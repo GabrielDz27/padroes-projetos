@@ -1,0 +1,18 @@
+# Arquivos compilados
+*.class
+*.jar
+*.war
+
+# Diretórios de build (Maven/Gradle)
+target/
+build/
+.gradle/
+
+# Arquivos de IDE (Eclipse, IntelliJ, VS Code)
+.idea/
+*.iml
+.metadata/
+.classpath
+.project
+.settings/
+.vscode/

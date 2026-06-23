@@ -68,8 +68,7 @@ public class Flight extends AbstractDbEntity {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return "Voo " + number + " (" + company + ") | Origem: " + from + " -> Destino: " + to + " | Cap: " + capacity;
 	}
 	
 	public static class Builder {
@@ -98,7 +97,7 @@ public class Flight extends AbstractDbEntity {
 			this.flight.setCompany(company);
 			return this;
 		}
-		
+
 		public Builder withCapacity(int capacity) {
 			this.flight.setCapacity(capacity);
 			return this;
